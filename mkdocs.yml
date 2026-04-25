@@ -31,7 +31,14 @@ extra_javascript:
 
 nav:
   - 首頁: index.md
-  - 專案展示:
-      - 金融量化: project1.md
-      - OR 理論: project2.md
+  - 論文研讀與實作:
+      - 隨機規劃 (Stochastic Programming): paper/stochastic_pro.md
+      - 大規模優化演算法: paper/large_scale_opt.md
+  - 量化交易專案:
+      - 回測系統實作: projects/backtest.md
+      - 因子研究: projects/factor_research.md
+  - 程式與開發:
+      - Web 開發心得: coding/web_dev.md
+      - Python 技巧: coding/python_tips.md
+  - 靈感與雜記: misc/ideas.md
   - 關於我: about.md
