@@ -1,0 +1,2 @@
+進入到這個資料夾
+在cmd輸入mkdocs serve --dev-addr 127.0.0.1:8001

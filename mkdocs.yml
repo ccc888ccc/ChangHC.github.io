@@ -1,0 +1,37 @@
+site_name: 無名研究牲
+theme:
+  name: material
+  language: zh-Hant # 設定為繁體中文
+  palette:
+    # 設定自動切換深色/淺色模式
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs # 讓導覽列變成上方標籤
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - 首頁: index.md
+  - 專案展示:
+      - 金融量化: project1.md
+      - OR 理論: project2.md
+  - 關於我: about.md
